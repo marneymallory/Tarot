@@ -12,6 +12,7 @@ Badass styling.
 ## What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 Tarot API- https://app.swaggerhub.com/apis/ekswagger/rws-tarot_card_api/1.0.0#/Card
 React, Javascript, HTML, CSS, maybe C#?
+React with gesture.
 
 ## If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 Add sign in functionality to save user’s spreads.
