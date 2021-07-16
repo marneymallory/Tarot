@@ -3,7 +3,6 @@ import "./../img/TarotReading.jpeg";
 
 function Header() {
   return (
-    <React.Fragment>
       <div>
         <container>
           <h1>🌙 🔮 ✨ Welcome to Moonstone Tarot! 🌙 🔮 ✨</h1>
@@ -12,7 +11,6 @@ function Header() {
           <img src={require("./../img/TarotReading.jpeg")} />
         </container>
       </div>
-    </React.Fragment>
   );
 }
 
