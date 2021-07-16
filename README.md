@@ -2,10 +2,11 @@
 
 ## Epicodus Capstone Project 
 
-### 7/19/21 by Marney Mallory
+### 7/16/21 by Marney Mallory
 
 ## Project's Purpose: 
 A Tarot Card app that will provide users with a classic three card spread, providing insight into past, present, and future. 
+Three cards will be dealt at random. When a user clicks on the card, and explanation of the card will be provided. 
 
 ## MVP:
 Use a Tarot API to access card images and meanings.
