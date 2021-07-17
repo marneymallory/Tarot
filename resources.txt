@@ -5,3 +5,6 @@ https://www.npmjs.com/package/react-with-gesture
 https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck
 (for images)
 
+https://www.npmjs.com/package/tarot-deck
+
+https://app.swaggerhub.com/apis/ekswagger/rws-tarot_card_api/1.0.0#/Get%20cards/get_cards_random
