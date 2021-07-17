@@ -1,7 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import * as tarot from "tarot-deck";
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { json } from "body-parser";
 
 function App() {
+  const test = tarot.drawCard()
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+      {JSON.stringify(test)}
     </div>
   );
 }
