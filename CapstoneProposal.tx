@@ -1,0 +1,27 @@
+Name of Student: Marney Rae Mallory
+
+Name of Project: Moonstone Tarot
+
+Project's Purpose or Goal: A Tarot Card app that will provide users with a classic three card spread, providing insight into past, present, and future. 
+List the absolute minimum features the project requires to meet this purpose or goal:
+Use a Tarot API to access card images and meanings.
+Provide user with three cards at a time, as well as meanings of each card.
+Badass styling.
+
+What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) 
+will you use to create this MVP? List them all here. Be specific.
+Tarot API- https://app.swaggerhub.com/apis/ekswagger/rws-tarot_card_api/1.0.0#/Card
+React, Javascript, HTML, CSS, maybe C#?
+
+If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next?
+Describe these features here: Be specific.
+Add sign in functionality to save user’s spreads.
+Add other numbers of spread options.
+
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+Identity?
+
+Is there anything else you'd like your instructor to know?
+I’m not sure what I’m doing, but I’m excited about this idea! Will be great if I can get it to work. 
+Not entirely sure how to go about it entirely. Not sure if it would need a C# backend or not. 
+Also, not really sure how to use multiple languages in one application. Am excited for the challenge!
