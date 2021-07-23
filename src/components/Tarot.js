@@ -4,18 +4,22 @@ import PropTypes from "prop-types";
 function Tarot(props) {
   return (
     <React.Fragment>
-      <div onClick={() => props.whenTarotClicked(props.id)}>
         <h3>
-          {props.card} 
+          Card Name: {props.name} 
         </h3>
-      </div>
+        <h5>Fortune: {props.fortuneTelling}</h5>
+        <h5>Light Meaning: {props.lightMeaning}</h5>
+        <h5>Shadow Meaning: {props.shadowMeaning}</h5>
+        <img src={`./../TarotImg/${props.name}.jpg`}/>
     </React.Fragment>
   );
 }
 Tarot.propTypes = {
-  card: PropTypes.string.isRequired,
-  id: PropTypes.string,
-  whenCardClicked: PropTypes.func,
+  name: PropTypes.string.isRequired,
+  fortuneTelling: PropTypes.string,
+  lightMeaning: PropTypes.string,
+  shadowMeaning: PropTypes.string,
+  image: PropTypes.string,
 };
 
 export default Tarot;
