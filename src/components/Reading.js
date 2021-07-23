@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Tarot from ".Tarot";
+import Tarot from "./Tarot";
 import React from "react";
 
 function Reading(props) {
