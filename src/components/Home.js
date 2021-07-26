@@ -33,6 +33,7 @@ class Home extends React.Component {
       drawReadingArray: [card1, card2, card3],
     });
   };
+  
 
   render() {
     return (

@@ -1,17 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Card from "react-bootstrap/Card";
 
 function Tarot(props) {
   const imageName = props.name.split(/[\s/]+/).join("");
   return (
     <React.Fragment>
-        <h3>
-          Card Name: {props.name} 
-        </h3>
-        <h5>Fortune: {props.fortuneTelling}</h5>
-        <h5>Light Meaning: {props.lightMeaning}</h5>
-        <h5>Shadow Meaning: {props.shadowMeaning}</h5>
-        <img src={require(`./../img/TarotImg/${imageName}.jpeg`)}/>
+      <Card>
+        <Card.Title>
+          <h3>Card Name: {props.name}</h3>
+        </Card.Title>
+          <Card.Text>Fortune: {props.fortuneTelling}</Card.Text>
+          <Card.Text>Light Meaning: {props.lightMeaning}</Card.Text>
+          <Card.Text>Shadow Meaning: {props.shadowMeaning}</Card.Text>
+        <Card.Img src={require(`./../img/TarotImg/${imageName}.jpeg`)} />
+      </Card>
     </React.Fragment>
   );
 }
