@@ -10,7 +10,6 @@ class Home extends React.Component {
       drawReadingArray: [],
       images: [],
       activeReading: false,
-      // selectedImage: null
     };
   }
 
@@ -28,25 +27,7 @@ class Home extends React.Component {
     const drawCard = response.drawCard;
     const card1 = drawCard();
     const card2 = drawCard()
-    // const card2 = 
-    //   name: "The Fool",
-    //   fortune_telling: ["Watch for new projects and new beginnings"],
-    //   meanings: {
-    //     light: ["Freeing yourself from limitation"],
-    //     shadow: ["Being gullible and naive"],
-    //   },
-    // };
     const card3 = drawCard();
-    ////////////////////////////////////////
-    // card2.name = card2.name.split(' ').join('')//["TheFool"]
-    //name: ["The", "Fool"].join('')
-    // const filteredImageStringArray = this.state.images.filter((element) =>
-    //   element.includes(card2.name[0])
-    // ); //filteredImageStringArray = ["TheFool.jpeg"]
-
-    // card2.image = filteredImageStringArray[0];
-    // console.log("Card 2", card2);
-    // this.selectedImage: filteredImageString
 
     this.setState({
       drawReadingArray: [card1, card2, card3],

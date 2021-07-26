@@ -12,7 +12,6 @@ function Tarot(props) {
         <h5>Light Meaning: {props.lightMeaning}</h5>
         <h5>Shadow Meaning: {props.shadowMeaning}</h5>
         <img src={require(`./../img/TarotImg/${imageName}.jpeg`)}/>
-        {/* <img src={"./../TarotImg/" + `${props.image}` + ".jpeg"}/> */}
     </React.Fragment>
   );
 }
