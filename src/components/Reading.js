@@ -9,9 +9,9 @@ function Reading(props) {
       {props.drawReadingArray.map((card, index) => (
         <Tarot 
         name={card.name}
-        fortuneTelling={card.fortune_telling[0]}
-        lightMeaning={card.meanings.light[0]}
-        shadowMeaning={card.meanings.shadow[0]}
+        fortuneTelling={card.fortune_telling[1]}
+        lightMeaning={card.meanings.light[1]}
+        shadowMeaning={card.meanings.shadow[1]}
         image={card.image}
         key={index}
         />
