@@ -33,7 +33,7 @@ class Home extends React.Component {
       drawReadingArray: [card1, card2, card3],
     });
   };
-  
+
 
   render() {
     return (
@@ -48,8 +48,6 @@ class Home extends React.Component {
     );
   }
 }
-Home.propTypes = {
-  onClickingReceiveReading: PropTypes.func,
-};
+
 
 export default Home;
