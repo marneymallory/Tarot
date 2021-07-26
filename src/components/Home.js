@@ -8,7 +8,7 @@ class Home extends React.Component {
     super(props);
     this.state = {
       drawReadingArray: [],
-      images: ["TheFool", "Devil", "NameThings"],
+      images: [],
       activeReading: false,
       // selectedImage: null
     };
@@ -40,12 +40,12 @@ class Home extends React.Component {
     ////////////////////////////////////////
     // card2.name = card2.name.split(' ').join('')//["TheFool"]
     //name: ["The", "Fool"].join('')
-    const filteredImageStringArray = this.state.images.filter((element) =>
-      element.includes(card2.name[0])
-    ); //filteredImageStringArray = ["TheFool.jpeg"]
+    // const filteredImageStringArray = this.state.images.filter((element) =>
+    //   element.includes(card2.name[0])
+    // ); //filteredImageStringArray = ["TheFool.jpeg"]
 
-    card2.image = filteredImageStringArray[0];
-    console.log("Card 2", card2);
+    // card2.image = filteredImageStringArray[0];
+    // console.log("Card 2", card2);
     // this.selectedImage: filteredImageString
 
     this.setState({
