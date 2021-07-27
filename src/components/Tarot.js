@@ -4,9 +4,11 @@ import Card from "react-bootstrap/Card";
 
 
 function Tarot(props) {
-  const imageName = props.name.split(/[\s/]+/).join("");
+   const { name, fortuneTelling, lightMeaning, shadowMeaning } = props;
+  const imageName = name.split(/[\s/]+/).join("");
   const [imageClicked, imageToggle] = useState(false);
-  const { name } = props;
+ 
+
 
   // const onImageClick = () => {
   //  onClickingImage();
@@ -46,9 +48,9 @@ function Tarot(props) {
         </button>
         {imageClicked ? 
         <div>
-          <h3>{props.fortuneTelling}</h3> 
-          <h3>{props.lightMeaning}</h3>
-          <h3>{props.shadowMeaning}</h3>
+          <h3>{ fortuneTelling }</h3> 
+          <h3><strong>Light Meaning:</strong> { lightMeaning }</h3>
+          <h3><strong>Shadow Meaning:</strong> { shadowMeaning }</h3>
         </div>
         : 
         null
@@ -63,9 +65,9 @@ function Tarot(props) {
 Tarot.propTypes = {
   name: PropTypes.string.isRequired,
   onClickingImage: PropTypes.func,
-  // fortuneTelling: PropTypes.string,
-  // lightMeaning: PropTypes.string,
-  // shadowMeaning: PropTypes.string,
+  fortuneTelling: PropTypes.string,
+  lightMeaning: PropTypes.string,
+  shadowMeaning: PropTypes.string,
   image: PropTypes.string,
 };
 

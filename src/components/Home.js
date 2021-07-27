@@ -2,7 +2,7 @@ import React from "react";
 // import PropTypes from "prop-types";
 import WelcomePage from "./WelcomePage";
 import Reading from "./Reading";
-import TarotDetail from "./TarotDetail";
+// import TarotDetail from "./TarotDetail";
 
 class Home extends React.Component {
   constructor(props) {
@@ -61,9 +61,9 @@ class Home extends React.Component {
         {this.state.activeReading && !this.state.imageSelected && (
           <Reading drawReadingArray={this.state.drawReadingArray} onClickingImage={this.handleImageClick} />
         )}
-        {this.state.activeReading && this.state.imageSelected && (
+        {/* {this.state.activeReading && this.state.imageSelected && (
           <TarotDetail/>
-        )}
+        )} */}
       </React.Fragment>
     );
   }
