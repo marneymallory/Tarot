@@ -28,6 +28,7 @@ class Home extends React.Component {
   // else, render (abc)
   handleImageClick = () => {
     this.setState({ imageSelected: true });
+    console.log(this.state.imageSelected)
   }
 
   handleClickReceiveReading = () => {
