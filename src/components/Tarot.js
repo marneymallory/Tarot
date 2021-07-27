@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Card from "react-bootstrap/Card";
 
 
 function Tarot(props) {
   const imageName = props.name.split(/[\s/]+/).join("");
-  const { onClickingImage } = props;
+  const [imageClicked, imageToggle] = useState(false);
+  const { name } = props;
+
+  // const onImageClick = () => {
+  //  onClickingImage();
+  //  imageToggle(!imageClicked);
+  // }
   return (
+    <>
     <React.Fragment>
       {/* {props.imageSelected ?
         <Card>
@@ -29,16 +36,28 @@ function Tarot(props) {
       }; */}
       <Card>
         <Card.Title>
-          <h3>{props.name.toUpperCase()}</h3>
+          <h3>{name.toUpperCase()}</h3>
         </Card.Title>
-        <button onClick={onClickingImage}>
+        <button onClick={() => imageToggle(!imageClicked)}>
           <Card.Img
             // onClick={onClickingImage}
             src={require(`./../img/TarotImg/${imageName}.jpeg`)}
           />
         </button>
+        {imageClicked ? 
+        <div>
+          <h3>{props.fortuneTelling}</h3> 
+          <h3>{props.lightMeaning}</h3>
+          <h3>{props.shadowMeaning}</h3>
+        </div>
+        : 
+        null
+      }
+      
       </Card>
+
     </React.Fragment>
+    </>
   );
 }
 Tarot.propTypes = {
