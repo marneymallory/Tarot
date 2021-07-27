@@ -29,7 +29,7 @@ Add card interactivity.
 * ⚛ _React_
 
 # APP Planning
-<img width="836" alt="Screen Shot 2021-07-16 at 11 20 37 AM" src="https://user-images.githubusercontent.com/79782193/126000032-fe2e15fd-d111-4776-800a-159c89be43dd.png">
+
 
 ## Setup Instructions
 
