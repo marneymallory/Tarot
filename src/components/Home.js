@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import WelcomePage from "./WelcomePage";
 import Reading from "./Reading";
 import TarotDetail from "./TarotDetail";

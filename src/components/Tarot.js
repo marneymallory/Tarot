@@ -24,16 +24,22 @@ function Tarot(props) {
         <Card.Text>
           <strong>Shadow Meaning:</strong> {props.shadowMeaning}
         </Card.Text> */}
-        <Card.Img onClick={onClickingImage} src={require(`./../img/TarotImg/${imageName}.jpeg`)} />
+        <button onClick={onClickingImage}>
+          <Card.Img
+            // onClick={onClickingImage}
+            src={require(`./../img/TarotImg/${imageName}.jpeg`)}
+          />
+        </button>
       </Card>
     </React.Fragment>
-  )
+  );
 }
 Tarot.propTypes = {
   name: PropTypes.string.isRequired,
-  fortuneTelling: PropTypes.string,
-  lightMeaning: PropTypes.string,
-  shadowMeaning: PropTypes.string,
+  onClickingImage: PropTypes.func,
+  // fortuneTelling: PropTypes.string,
+  // lightMeaning: PropTypes.string,
+  // shadowMeaning: PropTypes.string,
   image: PropTypes.string,
 };
 
