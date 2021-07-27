@@ -8,18 +8,18 @@ function Tarot(props) {
     <React.Fragment>
       <Card>
         <Card.Title>
-          <h3>Card Name: {props.name[0].toUpperCase() + props.name.slice(1)}</h3>
+          {/* <h3>Card Name: {props.name[0].toUpperCase() + props.name.slice(1)}</h3> */}
+          <h3>{props.name.toUpperCase()}</h3>
         </Card.Title>
         <Card.Text>
-          <h4>Fortune:</h4>
           <ul>
             {props.fortuneTelling.map((fortune, index) => (
                 <li key={index}>{fortune}</li>
             ))}
           </ul>
         </Card.Text>
-        <Card.Text>Light Meaning: {props.lightMeaning}</Card.Text>
-        <Card.Text>Shadow Meaning: {props.shadowMeaning}</Card.Text>
+        <Card.Text><strong>Light Meaning:</strong> {props.lightMeaning}</Card.Text>
+        <Card.Text><strong>Shadow Meaning:</strong> {props.shadowMeaning}</Card.Text>
         <Card.Img src={require(`./../img/TarotImg/${imageName}.jpeg`)} />
       </Card>
     </React.Fragment>
