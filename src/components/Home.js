@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import WelcomePage from "./WelcomePage";
 import Reading from "./Reading";
+import TarotDetail from "./TarotDetail";
 
 class Home extends React.Component {
   constructor(props) {
@@ -10,7 +11,23 @@ class Home extends React.Component {
       drawReadingArray: [],
       images: [],
       activeReading: false,
+      imageSelected: false,
     };
+  }
+
+  // state is in home
+  // onClick method on the image
+  // it will call a function.
+  // handleSelectedImage()
+  // this.setState({
+  //   imageSelected: true;
+  // })
+  // create a conditional in your tarot.js file.
+  // if imageSelected is true
+  // render( xyz.)
+  // else, render (abc)
+  handleImageClick = () => {
+    this.setState({ imageSelected: true });
   }
 
   handleClickReceiveReading = () => {
@@ -26,7 +43,7 @@ class Home extends React.Component {
     console.log(response.tarotDeck);
     const drawCard = response.drawCard;
     const card1 = drawCard();
-    const card2 = drawCard()
+    const card2 = drawCard();
     const card3 = drawCard();
 
     this.setState({
@@ -34,20 +51,21 @@ class Home extends React.Component {
     });
   };
 
-
   render() {
     return (
       <React.Fragment>
         {!this.state.activeReading && (
           <WelcomePage onClickingReceiveReading={this.handleClickReceiveReading} />
         )}
-        {this.state.activeReading && (
-          <Reading drawReadingArray={this.state.drawReadingArray} />
+        {this.state.activeReading && !this.state.imageSelected && (
+          <Reading drawReadingArray={this.state.drawReadingArray} onClickingImage={this.handleImageClick} />
+        )}
+        {this.state.activeReading && this.state.imageSelected && (
+          <TarotDetail/>
         )}
       </React.Fragment>
     );
   }
 }
-
 
 export default Home;
