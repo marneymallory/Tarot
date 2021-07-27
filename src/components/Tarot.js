@@ -34,8 +34,8 @@ function Tarot(props) {
           </Card.Text>
         </Card>
         :
-        <p>Click on a card to see your reading</p>
-      }; */}
+       null */}
+      {/* };  */}
       <Card>
         <Card.Title>
           <h3>{name.toUpperCase()}</h3>
