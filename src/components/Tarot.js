@@ -11,32 +11,12 @@ function Tarot(props) {
   return (
     <>
       <React.Fragment>
-        {/* {props.imageSelected ?
-        <Card>
-          <Card.Text>
-            <ul>
-              {props.fortuneTelling.map((fortune, index) => (
-                <li key={index}>{fortune}</li>
-              ))}
-            </ul>
-          </Card.Text>
-          <Card.Text>
-            <strong>Light Meaning:</strong> {props.lightMeaning}
-          </Card.Text>
-          <Card.Text>
-            <strong>Shadow Meaning:</strong> {props.shadowMeaning}
-          </Card.Text>
-        </Card>
-        :
-       null */}
-        {/* };  */}
         <Card>
           <Card.Title>
             <h3>{name.toUpperCase()}</h3>
           </Card.Title>
           <button onClick={() => imageToggle(!imageClicked)}>
             <Card.Img
-              // onClick={onClickingImage}
               src={require(`./../img/TarotImg/${imageName}.jpeg`)}
             />
           </button>
