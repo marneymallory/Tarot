@@ -12,7 +12,7 @@ function Tarot(props) {
     <>
       <React.Fragment>
         {/* <div id="backgroundColor"> */}
-        <Card>
+        <Card className = "Card">
           <div id="titleBackgroundColor">
             <Card.Title>
               <h3>{name.toUpperCase()}</h3>

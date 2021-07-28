@@ -12,7 +12,7 @@ function WelcomePage(props) {
         <h1>🌙 🔮 ✨ Welcome to Moonstone Tarot! 🌙 🔮 ✨</h1>
         <h3>✨Gain insight into your past, present and future✨</h3>
       </div>
-      <img src={require("./../img/TarotReading.jpg")} />
+      <img id="welcomePhoto" src={require("./../img/TarotReading.jpg")} />
       <button
         
         type="submit"

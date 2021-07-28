@@ -3,7 +3,7 @@ h2,
 h3 {
   text-align: center;
 }
-#welcomeBackground {
+#welcomeColor {
   background-color: rgb(177, 125, 236);
 }
 #titleBackgroundColor {
@@ -12,40 +12,20 @@ h3 {
 #backgroundColor {
   background-color: rgb(177, 125, 236);
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  font-family: fantasy;
+  background-image: url(./img/TarotImg/starry.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 button {
   margin: 10px;
   padding: 10px;
@@ -53,13 +33,13 @@ button {
   color: rgb(49, 5, 51);
   font-weight: 900;
   background-color: rgba(177, 125, 236);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: fantasy;
   font-size: medium;
   border-style: solid;
   border-color: rgba(184, 180, 180, 0.664);
   border-width: 2px;
   font-weight: 500;
+  border-radius: 35%;
 }
 
 .center {
@@ -68,4 +48,13 @@ button {
   margin-right: auto;
   height: 500px;
   width: 300px;
+}
+#welcomePhoto {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+.Card {
+  background-color:rgba(245, 183, 183, 0);
+  border: none;
 }
