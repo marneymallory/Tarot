@@ -49,9 +49,6 @@ class Home extends React.Component {
         {this.state.activeReading && !this.state.imageSelected && (
           <Reading drawReadingArray={this.state.drawReadingArray} onClickingImage={this.handleImageClick} />
         )}
-        {/* {this.state.activeReading && this.state.imageSelected && (
-          <TarotDetail/>
-        )} */}
       </React.Fragment>
     );
   }

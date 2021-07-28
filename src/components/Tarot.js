@@ -27,7 +27,6 @@ function Tarot(props) {
                   <li key={index}>{fortune}</li>
                 ))}
               </ul>
-              {/* <h3>{fortuneTelling}</h3> */}
               <h5>
                 <strong>Light Meaning:</strong>
               </h5>
