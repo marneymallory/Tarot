@@ -1,11 +1,13 @@
-# 🌙 🔮 ✨ Moonstone Tarot ✨ 🔮 🌙 
+# 🌙 🔮 ✨ 🌙 🔮 ✨ Moonstone Tarot ✨ 🔮 🌙 ✨ 🔮 🌙 
 
 ## Epicodus Capstone Project 
 
 ### 7/16/21 by Marney Mallory
 
+<img width="1440" alt="Screen Shot 2021-07-28 at 2 24 40 PM" src="https://user-images.githubusercontent.com/79782193/127410336-2b8c1dee-9b3b-4477-b900-d8bb05144bef.png">
+
 ## Project Inspiration and Format: 
-- I do tarot card readings for my self on a regular basis and I thought it would be a fun project to translate a reading into a digital format. 
+- A purpose of programming is to automate repetitive processes. I do tarot card readings for my self on a regular basis and I thought it would be a fun project to translate a tarot reading into a digital format.
 - A Tarot Card app that will provide users with a classic three card spread, providing insight into past, present, and future. 
 - Three cards will be dealt at random. When a user clicks on the card, and explanation of the card will be provided. 
 
