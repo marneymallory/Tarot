@@ -4,18 +4,19 @@
 
 ### 7/16/21 by Marney Mallory
 
-## Project's Purpose: 
-A Tarot Card app that will provide users with a classic three card spread, providing insight into past, present, and future. 
-Three cards will be dealt at random. When a user clicks on the card, and explanation of the card will be provided. 
+## Project Inspiration and Format: 
+- I do tarot card readings for my self on a regular basis and I thought it would be a fun project to translate a reading into a digital format. 
+- A Tarot Card app that will provide users with a classic three card spread, providing insight into past, present, and future. 
+- Three cards will be dealt at random. When a user clicks on the card, and explanation of the card will be provided. 
+
 
 ## MVP:
-Use a Tarot Node Library to access card meanings and fortunes and write code that will link locally stored images to the meanings in the library.
-Provide user with three cards at a time, as well as meanings of each card.
-
+- Use a Tarot Node Library to access card meanings and fortunes and write code that will link locally stored images to the meanings in the library.
+- Provide user with three cards at a time, as well as meanings of each card.
 
 ## Stretch Goals:
-Include reverses of each card.
-Provide different numbers of cards for each reading. 
+- Include reverses of each card.
+- Provide different numbers of cards for each reading. 
 
 ## Technologies Used
 
