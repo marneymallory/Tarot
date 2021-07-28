@@ -7,7 +7,7 @@ function WelcomePage(props) {
   const { onClickingReceiveReading } = props;
 
   return (
-    <Container>
+    <Container id="welcomePage">
       <div id="welcomeColor">
         <h1>🌙 🔮 ✨ Welcome to Moonstone Tarot! 🌙 🔮 ✨</h1>
         <h3>✨Gain insight into your past, present and future✨</h3>

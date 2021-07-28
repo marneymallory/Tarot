@@ -3,6 +3,9 @@ h2,
 h3 {
   text-align: center;
 }
+#welcomePage {
+  max-width: 75%;
+}
 #welcomeColor {
   background-color: rgb(177, 125, 236);
 }
