@@ -8,12 +8,6 @@ function Tarot(props) {
   const imageName = name.split(/[\s/]+/).join("");
   const [imageClicked, imageToggle] = useState(false);
  
-
-
-  // const onImageClick = () => {
-  //  onClickingImage();
-  //  imageToggle(!imageClicked);
-  // }
   return (
     <>
     <React.Fragment>
