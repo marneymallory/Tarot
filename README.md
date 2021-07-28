@@ -9,14 +9,13 @@ A Tarot Card app that will provide users with a classic three card spread, provi
 Three cards will be dealt at random. When a user clicks on the card, and explanation of the card will be provided. 
 
 ## MVP:
-Use a Tarot API to access card images and meanings.
+Use a Tarot Node Library to access card meanings and fortunes and write code that will link locally stored images to the meanings in the library.
 Provide user with three cards at a time, as well as meanings of each card.
-Badass styling.
+
 
 ## Stretch Goals:
-Add sign in functionality to save user’s spreads.
-Add other numbers of spread options.
-Add card interactivity.
+Include reverses of each card.
+Provide different numbers of cards for each reading. 
 
 ## Technologies Used
 
