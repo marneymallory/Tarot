@@ -1,8 +1,7 @@
 import React from "react";
-// import PropTypes from "prop-types";
 import WelcomePage from "./WelcomePage";
 import Reading from "./Reading";
-// import TarotDetail from "./TarotDetail";
+
 
 class Home extends React.Component {
   constructor(props) {
@@ -15,17 +14,6 @@ class Home extends React.Component {
     };
   }
 
-  // state is in home
-  // onClick method on the image
-  // it will call a function.
-  // handleSelectedImage()
-  // this.setState({
-  //   imageSelected: true;
-  // })
-  // create a conditional in your tarot.js file.
-  // if imageSelected is true
-  // render( xyz.)
-  // else, render (abc)
   handleImageClick = () => {
     this.setState({ imageSelected: true });
     console.log(this.state.imageSelected)
