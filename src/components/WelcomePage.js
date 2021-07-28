@@ -8,12 +8,13 @@ function WelcomePage(props) {
 
   return (
     <Container>
-      <h1>🌙 🔮 ✨ Welcome to Moonstone Tarot! 🌙 🔮 ✨</h1>
-      <h3>✨Gain insight into your past, present and future✨</h3>
-
+      <div id="welcomeColor">
+        <h1>🌙 🔮 ✨ Welcome to Moonstone Tarot! 🌙 🔮 ✨</h1>
+        <h3>✨Gain insight into your past, present and future✨</h3>
+      </div>
       <img src={require("./../img/TarotReading.jpg")} />
       <button
-        className="btn btn-primary"
+        
         type="submit"
         onClick={onClickingReceiveReading}
       >

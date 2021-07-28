@@ -1,7 +1,17 @@
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-align: center;
 }
-
+#welcomeBackground {
+  background-color: rgb(177, 125, 236);
+}
+#titleBackgroundColor {
+  background-color: rgb(177, 125, 236);
+}
+#backgroundColor {
+  background-color: rgb(177, 125, 236);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +45,27 @@ h1, h2, h3 {
   to {
     transform: rotate(360deg);
   }
+}
+button {
+  margin: 10px;
+  padding: 10px;
+  width: 14em;
+  color: rgb(49, 5, 51);
+  font-weight: 900;
+  background-color: rgba(177, 125, 236);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: medium;
+  border-style: solid;
+  border-color: rgba(184, 180, 180, 0.664);
+  border-width: 2px;
+  font-weight: 500;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 300px;
 }

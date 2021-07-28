@@ -11,17 +11,22 @@ function Tarot(props) {
   return (
     <>
       <React.Fragment>
+        {/* <div id="backgroundColor"> */}
         <Card>
-          <Card.Title>
-            <h3>{name.toUpperCase()}</h3>
-          </Card.Title>
-          <button onClick={() => imageToggle(!imageClicked)}>
-            <Card.Img
-              src={require(`./../img/TarotImg/${imageName}.jpeg`)}
-            />
-          </button>
+          <div id="titleBackgroundColor">
+            <Card.Title>
+              <h3>{name.toUpperCase()}</h3>
+            </Card.Title>
+          </div>
+          {/* <button class="center" onClick={() => imageToggle(!imageClicked)}> */}
+          <Card.Img
+            class="center"
+            onClick={() => imageToggle(!imageClicked)}
+            src={require(`./../img/TarotImg/${imageName}.jpeg`)}
+          />
+          {/* </button> */}
           {imageClicked ? (
-            <div>
+            <div id="backgroundColor">
               <ul>
                 {props.fortuneTelling.map((fortune, index) => (
                   <li key={index}>{fortune}</li>
