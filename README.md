@@ -29,6 +29,7 @@
 * 💾 _Webpack_
 * 🥾 _Bootstrap_
 * ⚛ _React_
+* 🔮 _Tarot for Node 
 
 # APP Planning
 ![image](https://user-images.githubusercontent.com/79782193/127186564-52f73273-87b7-460f-a622-3222b8d9edad.png)
